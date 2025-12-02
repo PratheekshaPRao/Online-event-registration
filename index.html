@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Event Registration</h1>
+  <form id="regForm">
+    <label>Name:</label>
+    <input type="text" id="name" required><br>
+    <label>Email:</label>
+    <input type="email" id="email" required><br>
+    <label>Event:</label>
+    <select id="event">
+      <option>Tech Talk</option>
+      <option>Workshop</option>
+      <option>Hackathon</option>
+    </select><br>
+    <button type="submit">Register</button>
+  </form>
+  <p id="msg"></p>
+  <script src="script.js"></script>
+</body>
+</html>
